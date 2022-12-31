@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Brice Johnson",
+  "classifications": [ "WebApi", "Console" ],
+  "identity": "Brice.Templates.WebApi",
+  "name": "Brice's Super-charged WebApi",
+  "shortName": "brice-webapi",
+  "sourceName": "Webapi.Template"
+}
+
