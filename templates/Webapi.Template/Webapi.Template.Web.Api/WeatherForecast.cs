@@ -1,4 +1,4 @@
-namespace Webapi.Template.Api;
+namespace Webapi.Template.Web.Api;
 
 public class WeatherForecast
 {

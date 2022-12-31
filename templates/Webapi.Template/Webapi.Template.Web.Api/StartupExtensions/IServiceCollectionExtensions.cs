@@ -1,7 +1,8 @@
+using Serilog;
 using Webapi.Template.Core.Services;
 using Webapi.Template.DB;
 
-namespace Webapi.Template.Api.StartupExtensions;
+namespace Webapi.Template.Web.Api.StartupExtensions;
 
 public static class IServiceCollectionExtensions
 {
@@ -31,9 +32,21 @@ public static class IServiceCollectionExtensions
 
         return services;
     }
+    
     public static IServiceCollection SetupAutomapper(this IServiceCollection services,
         ConfigurationManager config)
     {
+        services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+        return services;
+    }
+    
+    public static IServiceCollection SetupLogging(this IServiceCollection services,
+        ConfigurationManager config)
+    {
+        Log.Logger = new LoggerConfiguration()
+            .WriteTo.Console()
+            .CreateLogger();
         services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
         return services;

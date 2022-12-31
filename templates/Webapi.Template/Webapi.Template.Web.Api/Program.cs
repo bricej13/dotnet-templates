@@ -1,8 +1,9 @@
-using Webapi.Template.Api.StartupExtensions;
+using Webapi.Template.Web.Api.StartupExtensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
+builder.Host.SetupLogging(builder.Configuration);
 builder.Services.AddControllers();
 builder.Services.SetupAutomapper(builder.Configuration);
 builder.Services.SetupServices(builder.Configuration);

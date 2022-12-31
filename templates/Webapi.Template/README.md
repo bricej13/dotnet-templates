@@ -18,6 +18,11 @@ Servies are added in the `SetupServices` method if `IServiceColelctionExtensions
 
 
 ## Serilog
+Serilog is setup in `SetupSerilog` method of `ConfigureHostBuilderExtensions`
+### Configuring
+Serilog uses the configuration from `appsettings.json`. See the [documentation](https://github.com/serilog/serilog-settings-configuration) for further information.
+
+
 ## Automapper
 Automapper is seutp using the `SetupAutomapper` extension method and `AutomapperProfile` class.
 Example configurations should be removed

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webapi.Template.Api", "Webapi.Template.Api\Webapi.Template.Api.csproj", "{2E2C9269-37DD-4456-A491-FF225DE2F496}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webapi.Template.Web.Api", "Webapi.Template.Web.Api\Webapi.Template.Web.Api.csproj", "{2E2C9269-37DD-4456-A491-FF225DE2F496}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webapi.Template.Core", "Webapi.Template.Core\Webapi.Template.Core.csproj", "{56E8E2AD-942E-4F9C-BE45-AB6559A37FD1}"
 EndProject

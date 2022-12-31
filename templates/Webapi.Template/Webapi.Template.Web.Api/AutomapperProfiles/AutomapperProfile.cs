@@ -1,8 +1,8 @@
 using AutoMapper;
-using Webapi.Template.Api.Dtos;
 using Webapi.Template.DB.Entities;
+using Webapi.Template.Web.Api.Dtos;
 
-namespace Webapi.Template.Api.AutomapperProfiles;
+namespace Webapi.Template.Web.Api.AutomapperProfiles;
 
 public class AutomapperProfile : Profile
 {

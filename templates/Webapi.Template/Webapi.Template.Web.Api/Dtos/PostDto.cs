@@ -1,4 +1,4 @@
-namespace Webapi.Template.Api.Dtos;
+namespace Webapi.Template.Web.Api.Dtos;
 
 public class PostDto
 {
