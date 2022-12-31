@@ -14,7 +14,13 @@ run `dotnet ef migraions add init` from the DB project
 rut `dotnet ef database update` to apply migrations
 
 ## Dependency Injection
+Servies are added in the `SetupServices` method if `IServiceColelctionExtensions.cs`
+
+
 ## Serilog
 ## Automapper
+Automapper is seutp using the `SetupAutomapper` extension method and `AutomapperProfile` class.
+Example configurations should be removed
+
 ## SPA UI
 ## Swagger MSBuild

@@ -4,6 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
+builder.Services.SetupAutomapper(builder.Configuration);
 builder.Services.SetupServices(builder.Configuration);
 builder.Services.SetupSwagger(builder.Configuration);
 builder.Services.SetupDatabase(builder.Configuration);
